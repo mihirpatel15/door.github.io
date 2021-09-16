@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.5px;
+}
+.clr1{
+    background-color:#08a2f3;
+}
+.txtclr1{
+    color:#08A2F3;
+}
+:root{
+	--clr1: #08a2f3;
+	--txtclr1:#08A2F3;	
+}
+
+
+
+.paragraph{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Satisfy', cursive; 
+font-family: 'Roboto Condensed', sans-serif;*/
+
+.navbar .navbar-brand,  .nav-link {
+    color:white!important;
+    
+}
+.navbar .navbar-brand:hover {
+    color:white;
+}
+h1,h3{
+   
+    font-family: 'Merienda', cursive; 
+   
+}
+header .logo{
+    vertical-align: left;
+    text-align: left;
+}
+.main_slider img{
+    height: 80vh;
+    vertical-align: center;
+    object-fit: cover;
+}
+
+/* owl caresole start*/
+.owl-stage-outer{
+    position: relative;
+    background: pink;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute!important;
+    left:-15px!important;
+	top:50%!important;
+    transform: translate(-50%,-50%)!important;
+	font-size: 3rem!important;
+    background-color: var(--clr1)!important;
+    color: #fff!important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute!important;
+    right:-30px!important;
+	top:50%!important;
+    transform: translate(-50%,-50%)!important;
+	font-size: 3rem!important;
+    background-color: var(--clr1)!important;
+    color: #fff!important;
+}
+/* owl caresole end*/
+
+
+
+/* MEDIA QUERY START FROM HERE ACCORDING BOOTSTRAPE 5 BREAK POINT FOR BETTER USER EXPERIENCE */
+
+/*extra small device*/ 
+@media (max-width: 575px) { 
+   
+ }
+ /*small device*/
+@media (min-width: 576px) and (max-width: 767px) { 
+   
+ }
+
+/*medium device*/
+@media (min-width: 768px) and (max-width: 991px) {  
+  
+}
+
+/*large device*/ 
+@media (min-width: 992px) and (max-width: 1199px) { 
+   
+ }
+
+/*extra large device*/
+@media (min-width: 1200px) and (max-width: 1399px) { 
+  
+ }
+
+ /*extra extra large device*/ 
+ @media (min-width: 1400px){
+   
+ }
+
+ 
+/* MEDIA QUERY END */
