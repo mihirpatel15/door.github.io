@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Charm&family=Courgette&family=Dancing+Script:wght@500&family=Indie+Flower&family=Klee+One&family=Merienda&family=Merienda+One&family=Nanum+Gothic&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/Owl Carousel/owl.carousel.css" />
+    
+    <link rel="stylesheet" href="css/Owl Carousel/owl.theme.default.min.css" type="text/css"> 
+
 
     
     <title>બારી દરવાજા ની દુકાન.</title>
@@ -182,8 +185,8 @@
         <h3 class="text-center mt-5 txtclr1 text-uppercase">OUR LATEST DOORS DESIGN SPECTRUM</h3>
         <h4 class="text-center mb-5 text-uppercase">Establishing Best Value For Our Business</h4>
       </div>  
-      <div class="container">
-        <div class="owl-carousel owl-theme ">
+      <div class="container-fluid px-md-5">
+        <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="swiper-slide">
               <div class="product-grid">
@@ -274,6 +277,8 @@
               </div>
             </div>
           </div>
+          
+          
         </div>
       </div>
      
@@ -288,17 +293,25 @@
       $(document).ready(function(){
           $('.owl-carousel').owlCarousel({
             loop:false,
-            margin:10,
             nav:true,
+            lazyLoad: true,
+            dots:true,
             responsive:{
-                0:{
-                    items:1
+              0:{
+            items:1,
+            nav:false,
+            navText : ['<i class="fa fa-angle-double-left" aria-hidden="true"></i>','<i class="fa fa-angle-double-right" aria-hidden="true"></i>'],
+
                 },
-                576:{
-                    items:3
+                600:{
+                    items:2.4,
+                    nav:false,
+                    dots:false,
+                    navText : ['<i class="fa fa-angle-double-left" aria-hidden="true"></i>','<i class="fa fa-angle-double-right" aria-hidden="true"></i>'],
                 },
-                768:{
-                    items:5
+                1000:{
+                    items:5.4,
+                    dots:false,
                 }
             }
           })

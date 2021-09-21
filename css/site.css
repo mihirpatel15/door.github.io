@@ -50,7 +50,16 @@ header .logo{
 }
 
 /* owl caresole start*/
-
+.owl-prev{
+    left:-30px;
+    position: absolute;
+    top:90px;
+}
+.owl-next{
+    right:-30px;
+    position: absolute;
+    top:90px;
+}
 /* owl caresole end*/
 
 
