@@ -5,6 +5,9 @@
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 0.5px;
 }
+body{
+    
+}
 .clr1{
     background-color:#08a2f3;
 }
@@ -39,6 +42,9 @@ h1,h3{
     font-family: 'Merienda', cursive; 
    
 }
+h4{
+    font-family: 'Zilla Slab', serif;
+}
 header .logo{
     vertical-align: left;
     text-align: left;
@@ -50,18 +56,74 @@ header .logo{
 }
 
 /* owl caresole start*/
-.owl-prev{
-    left:-30px;
-    position: absolute;
-    top:90px;
+.product-grid{
+    border:0!important;
 }
-.owl-next{
-    right:-30px;
+.owl-nav button{
+    padding: 100px!important;
+    background-color:#fff!important;
+    color:var(--txtclr1)!important;
+  
+   
+}
+.owl-nav span{
+    padding: 20px 10px!important;
+    margin:20px 0!important;
+    font-size: 50px!important;
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+    margin: 0!important;
+}
+
+.owl-stage-outer{
+    position: relative;
+    
+    
+}
+.owl-nav .owl-prev{
+    top:25%;
+    left:0;
+   position: absolute;
+   border:solid rgb(190, 184, 184)!important;
+   border-width: 1px 1px 1px 0!important;
+   border-radius: 0 2px 2px 0!important;
+  
+
+   
+
+}
+.owl-nav .owl-next{
+    top:25%;
+    right:0;
     position: absolute;
-    top:90px;
+    border:solid rgb(190, 184, 184)!important;
+    border-width: 1.5px 0 1px 1px!important;
+    border-radius:2px 0 2px 2px!important;
+    
 }
 /* owl caresole end*/
 
+
+/*Latest block start*/
+
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  .featurette-heading
+  {
+      font-size: 50px;
+     
+  }
+
+
+ 
+  
+  
+  
+/*Latest block end */
 
 
 /* MEDIA QUERY START FROM HERE ACCORDING BOOTSTRAPE 5 BREAK POINT FOR BETTER USER EXPERIENCE */
