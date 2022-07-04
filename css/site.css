@@ -37,14 +37,14 @@ font-family: 'Roboto Condensed', sans-serif;*/
 .navbar .navbar-brand:hover {
     color:white;
 }
-h1,h3{
+/* h1,h3{
    
     font-family: 'Merienda', cursive; 
    
 }
 h4{
     font-family: 'Zilla Slab', serif;
-}
+} */
 header .logo{
     vertical-align: left;
     text-align: left;
